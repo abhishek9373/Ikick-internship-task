@@ -4,7 +4,9 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  border-right: 1.5px solid rgba(128, 128, 128, 0.323);
+  border-right: 1.5px solid#E7E7E9;
+  position: sticky;
+  top: 0px;
 }
 
 .sidebar-self-aligner{
@@ -34,7 +36,7 @@
   background-color:  #664DFF;
   border-radius: 50%;
   position: absolute;
-  left: -10px;
+  left: -50px;
 }
 
 .selected{
