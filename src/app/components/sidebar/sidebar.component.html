@@ -1,1 +1,15 @@
-<p>sidebar works!</p>
+<div class="sidebar-container">
+  <div class="sidebar-self-aligner">
+    <div class="sidebar-logo"><img src="" alt="">iKick</div>
+    <div class="sidebar-item" [ngClass]="selected==1? 'selected' : 'normal'">
+      <div class="indicator"></div><img src="assets/icons/home.svg" alt="" *ngIf="selected!==1">Home
+    </div>
+    <div class="sidebar-item"><img src="assets/icons/insight.svg" alt="" *ngIf="selected!==2" alt="">Insight</div>
+    <div class="sidebar-item"><img src="assets/icons/hammer.svg" alt="">My Bid</div>
+    <div class="sidebar-item"><img src="assets/icons/chat.svg" alt="">Message</div>
+    <div class="sidebar-item"><img src="assets/icons/notification.svg" alt="">Notification</div>
+    <div class="sidebar-item"><img src="assets/icons/save.svg" alt="">Save</div>
+    <div class="sidebar-item"><img src="assets/icons/create.svg" alt="">Create</div>
+    <div class="sidebar-item"><img src="assets/icons/user.svg" alt="">Profile</div>
+  </div>
+</div>
