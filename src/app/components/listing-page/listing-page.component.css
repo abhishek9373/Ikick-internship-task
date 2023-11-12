@@ -39,6 +39,7 @@
 
 .active-listing-container{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
   overflow-y: auto;
@@ -55,11 +56,9 @@
 .card{
   border-radius: 17px;
   box-shadow: rgba(0, 0, 255, 0.093) 3px 3px 30px;
-  width: 200px;
-  min-height: 303px;
+  min-width: 198px;
   padding-bottom: 6px;
-
-  flex: 1 0 calc(25% - 16px);
+  flex: 1 0 calc(25% - 16px)̣;
   box-sizing: border-box;
 }
 
@@ -165,4 +164,20 @@
 
 #spacer{
   height: 25px;
+}
+
+/* responsivness code */
+
+@media only screen and (min-width: 700px) and (max-width: 1137.60px) {
+  .card{
+    min-width: 198px;
+  }
+
+  .listing-container{
+    width: 45vw;
+  }
+
+  .search-bar-container{
+    width: 43vw;
+  }
 }

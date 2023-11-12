@@ -1,6 +1,4 @@
 .sidebar-container{
-  width: 100%;
-  min-width: 23vw;
   padding-top: 45px;
 }
 
@@ -8,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 30px;
 }
@@ -29,7 +27,8 @@
 /* category styles */
 .categoty-listing{
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-bottom: 25px;
 }
 
@@ -57,6 +56,13 @@
 
 /* featured celebrities */
 
+.celebrity-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .celebrity-card{
   background-color: #F8F7FC;
   border-radius: 20px;
@@ -64,6 +70,7 @@
   align-items: center;
   padding-right: 5px;
   margin-right: 8px;
+  margin-bottom: 12px;
 }
 
 .celebrity-card img{
