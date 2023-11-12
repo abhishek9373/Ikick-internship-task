@@ -1,0 +1,75 @@
+.sidebar-container{
+  width: 100%;
+  min-width: 23vw;
+  padding-top: 45px;
+}
+
+.active-listing-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.active-listing-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  overflow-y: auto;
+}
+
+#see-all{
+  cursor: pointer;
+  font-size: 12px;
+  color: grey;
+}
+
+/* category styles */
+.categoty-listing{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.category{
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-image{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color:#EAECF9;
+  display: flex;
+  justify-content: center;
+}
+
+.category-name{
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+/* featured celebrities */
+
+.celebrity-card{
+  background-color: #F8F7FC;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  padding-right: 5px;
+  margin-right: 8px;
+}
+
+.celebrity-card img{
+  margin-right: 3px;
+}
+
+.celebrity-name{
+  font-size: 10px;
+}
